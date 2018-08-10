@@ -1,0 +1,41 @@
+////////////////////////////////////////////////
+//
+// Arquivo de declaração de contadores
+// Conta módulo Lista marcado
+//
+///////////////////////////////////////////////
+
+
+Tipo de espaco de dados nao é cabeca de lista
+Tipo de espaco de dados é cabeca de lista
+Origem da lista nao é NULL
+No origem lista nao aponta para cabeca
+Lista vazia tem no corente para nao NULL
+Elemento corrente nao é NULL
+No elementocorrente nao aponta para cabeca
+Lista vazia nao tem no corrente
+Elemento fim lista nao é NULL
+No do fimlista nao aponta para cabeca
+Lista vazia tem no corrente para nao NULL
+Numero de elementos menor do que 0
+Numero de elementos igual a 0
+Numero de elementos maior que 0
+Numero de elementos 0 com lista nao vazia
+Numero de elementos maior que 0 com lista vazia
+Cabeca de lista OK
+Tipo de espaco de dados nao é no de lista
+Tipo do espaco é no lista
+Lista nao esta vazia
+No nao pertence a lista
+Elemento prox aponta para outro
+Encadeamento prox errado
+No prox nao pertence a mesma cabeca
+Elemento prox nao aponta para outro
+Elemento ant aponta para outro
+Encadeamento no ant
+No ant nao pertence a mesma cabeca
+Elemento ant nao aponta para outro
+Numero de elementos da lista diferente do cotador da cabeca
+Numero de elementos é igual do contador da cobeca
+Elemento nao é NULL
+Numero de bytes do elemento esta errado

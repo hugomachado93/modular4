@@ -1,0 +1,12 @@
+DATA	HORAS TRABALHADAS	TIPO TAREFA	DESCRIÇÃO TAREFA REALIZADA
+---------------------------------------------------------------------------
+
+20/06	5 horas,		Elaboração,	Elaboração da realização do trabalho junto ao grupo.
+
+25/06	3 horas,		Estudo,		Estudo do módulo CESPDIN para realização das tarefas.
+
+26/06	2 horas,		Estudo,		Estudo do módulo CONTA e averiguação de estruturas autoverificaveis.
+
+26/06	5 horas,		Criação,	Criação do modulo lista com o verificador e deturpador.
+
+27/06	3 horas,		Criação,	Criacao do script de teste.

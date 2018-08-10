@@ -1,0 +1,286 @@
+// Script:    testeLista.script
+// Autor:     Hugo de Barros Pimentel Dutra Machado
+// Data:      27/jun/2018
+// Propósito: Testar o módulo lista genérica duplamente encadeada sem instrumentacao
+//
+
+==inicializar valores
+=declararparm	lista0	int 0
+
+=declararparm str0 string "teste1"
+=declararparm str1 string "teste2"
+=declararparm str2 string "teste3"
+
+=declararparm OK	int 0
+
+==inicializar contadores
+=inicializarcontadores ""
+=lercontadores	"lista"
+=iniciarcontagem
+
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 0
+=verificarlista lista0 3
+=destruirlista lista0
+
+==verificar vazamento de memoria
+=obternumeroespacosalocados  6
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 1
+=verificarlista lista0 5
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 2
+=verificarlista lista0 7
+=destruirlista lista0
+
+==verificar vazamento de memoria
+=obternumeroespacosalocados  6
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar numero de elementos
+=deturpar lista0 3
+=verificarlista lista0 8
+=destruirlista lista0
+
+==verificar vazamento de memoria
+=obternumeroespacosalocados  6
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 4
+=verificarlista lista0 9
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 5
+=verificarlista lista0 9
+=destruirlista lista0
+
+==verificar vazamento de memoria
+=obternumeroespacosalocados  6
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar tipo cabeca
+=deturpar lista0 6
+=verificarlista lista0 10
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 7
+=verificarlista lista0 11
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 8 //nao da para visualizar
+=verificarlista lista0 11
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 9
+=verificarlista lista0 12
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 10
+=verificarlista lista0 13
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 12
+=verificarlista lista0 17
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 14
+=verificarlista lista0 18
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 16
+=verificarlista lista0 21
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 17
+=verificarlista lista0 23
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 18
+=verificarlista lista0 24
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 19
+=verificarlista lista0 27
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+=inselemapos lista0 str1 OK
+=inselemapos lista0 str2 OK
+
+==Deturpar
+=deturpar lista0 20
+=verificarlista lista0 28
+=destruirlista lista0
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes lista0 str0 OK
+
+==Deturpar
+=deturpar lista0 12
+=verificarlista lista0 31
+=destruirlista lista0
+
+==terminar controlar contadores
+=pararcontagem
+
+==gravar contagem
+=gravarcontadores "RegistroDeContadores.txt"
+
+==terminar contagem
+=terminarcontadores

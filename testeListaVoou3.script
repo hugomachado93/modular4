@@ -1,0 +1,40 @@
+// Script:    testeLista.script
+// Autor:     Hugo de Barros Pimentel Dutra Machado
+// Data:      27/jun/2018
+// Propósito: Testar o módulo lista genérica duplamente encadeada sem instrumentacao
+//
+//voa pois é copiado lixo para o ponteiro prox
+
+==inicializar valores
+=declararparm	lista0	int 0
+
+=declararparm str0 string "teste1"
+=declararparm str1 string "teste2"
+=declararparm str2 string "teste3"
+
+=declararparm OK	int 0
+
+==inicializar contadores
+=inicializarcontadores ""
+=lercontadores	"lista"
+=iniciarcontagem
+
+==inicializar lista
+=criarlista lista0
+
+==inserir novos elementos
+=inselemantes    lista0   str0   OK
+
+==Deturpar origem
+=deturpar lista0 15
+=verificarlista lista0 3
+=destruirlista lista0
+
+==terminar controlar contadores
+=pararcontagem
+
+==gravar contagem
+=gravarcontadores "RegistroDeContadores.txt"
+
+==terminar contagem
+=terminarcontadores

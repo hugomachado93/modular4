@@ -1,0 +1,44 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB4-1
+!!!      Script de teste:     testeLista.script
+
+!!!    0  Linha:     1  // Script:    testeLista.script 
+!!!    0  Linha:     2  // Autor:     Hugo de Barros Pimentel Dutra Machado 
+!!!    0  Linha:     3  // Data:      27/jun/2018 
+!!!    0  Linha:     4  // Propósito: Testar o módulo lista genérica duplamente encadeada sem instrumentacao 
+!!!    0  Linha:     5  // 
+    7  == Inicializar valores
+   26  == Criar lista
+   29  == Verificar ObterValor relativo a lista vazia
+   32  == Inserir elemento em lista vazia
+   39  == Verificar ObterValor relativo a lista nao vazia
+   42  == Inserir elemento após primeiro
+   46  == Inserir elemento antes do último
+   50  == Excluir elemento do meio
+   54  == Excluir elemento do início
+   59  == Excluir elemento final, único
+   63  == Ver se a lista ficou vazia
+   66  == Verificar ExcluirElemento em uma lista vazia
+   69  == Esvaziar a lista e ver se ficou vazia
+   74  == Destruir lista
+   78  == Criar uma lista com dois elementos
+   86  == Criar uma lista com quatro elementos
+   93  == Verificar a lista do fim ao inicio
+  103  == Verificar a lista do inicio ao fim
+  113  == Verificar a lista andando demais do fim para o inicio
+  117  == Verificar a lista andando demais do inicio para o fim
+  121  == Avancar para inicio da lista
+  125  == Avancar para fim da lista
+  129  == Destruir a lista
+!!!    0  Linha:   132  // fim 
+
+!!! Número de linhas lidas:         132
+!!! Número de casos de teste:        23
+!!! Número comandos corretos:        76
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 2

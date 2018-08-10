@@ -1,0 +1,4 @@
+Autor:Hugo Machado
+
+-Deszipe os arquivos em uma pasta
+-Execute o bat testeRelease.bat e testeListaDebug.bat para gerar os scripts de teste
